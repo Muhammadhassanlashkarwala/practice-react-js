@@ -3,7 +3,7 @@
 const App = () => {
   return(
     <>
-    {/* <div> 
+     {/* <div> 
        <div>
          <img src="vite.svg" alt="vite.svg" width="25%" />
        </div>
@@ -42,10 +42,11 @@ const App = () => {
         <h2>Name: Queen Tears Of Korean</h2>
         <h3>Rating: 8.2</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae perspiciatis rem odit eligendi et, est unde quo error ad quia. Minima, deserunt delectus. Nostrum doloremque magni perferendis sint eos vitae quaerat minus illum nam libero, itaque expedita officiis nihil laborum, praesentium suscipit rem. Expedita porro esse impedit ea. Tenetur.</p>
-        </div>
+        </div> 
 
-i commit all divs and call the component only */}
-  
+          Now i comment all divs and simply call a component only...
+                  Component your work Easy */}
+
       <NetflixSeries />
       <NetflixSeries />
       <NetflixSeries />
@@ -83,14 +84,22 @@ const NetflixSeries = () => {
   const rating = 8.2 ;
   const description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae perspiciatis rem odit eligendi et, est unde quo error ad quia. Minima, deserunt delectus. Nostrum doloremque magni perferendis sint eos vitae quaerat minus illum nam libero, itaque expedita officiis nihil laborum, praesentium suscipit rem. Expedita porro esse impedit ea. Tenetur."
 
+  const returnGenre = () => {
+     const genre = "Romcop And Honey";
+    return genre;
+  };
+
   return(
     <div> 
   <div>
-    <img src="vite.svg" alt="vite.svg" width="25%" />
+    <img src="vite.svg" alt="vite.svg" width="11%" />
   </div>
    <h2>Name: {name}</h2>
    <h3>Rating: {rating}</h3>
    <p> <b>Summary</b> : {description} </p>
+   <p><b>Genre: </b>{ returnGenre() }</p>
+
+    <hr />
    </div>
 
    
