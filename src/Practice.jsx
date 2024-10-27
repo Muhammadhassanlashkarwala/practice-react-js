@@ -1,8 +1,12 @@
 
 const Practice = () => {
-    const interview = "Muhammad Hassan you give a Interview"
+    const emptyArray = [12, 18];
+    // const interview = "Interview Of Muhammad Hassan"
     return(
-        <h2>{interview}</h2>
+        <>
+        <p>{emptyArray.length == 0 && "No students found!"}</p>
+        <p>Numbers Of Students: {emptyArray.length}</p>
+        </>
     )
 }
 
