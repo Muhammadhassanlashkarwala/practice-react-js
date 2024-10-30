@@ -16,6 +16,25 @@ export const AnimeArt = () => {
         {image}
       </div>
       <button>{age >= 18 ? "Adults Watch now" : "Minors are not available" }</button>
+      <hr />
       </>
     );
+};
+
+export const Header = () => {
+  return(
+    <>
+  <div>
+      <h1>Hassan Logo</h1>
+  </div>
+  <div>
+    <ul>
+      <li>Home</li>
+      <li>Contact</li>
+      <li>About</li>
+      <li>Service</li>
+    </ul>
+  </div>
+  </>
+  );
 };

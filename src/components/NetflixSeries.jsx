@@ -1,6 +1,6 @@
   
   const NetflixSeries = () => {
-  const name = "DBZ😘";
+  const name = "Queen Tears Series";
   const summary = "lorem ist giese brce tyuin juny try kunb getrfil caxs szed frgy precuou mot excleim."
   const returnGenre = () => {
   const genre = "Romcop And Honey";
