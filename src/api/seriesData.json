@@ -1,0 +1,20 @@
+[
+    {
+   "name" : "lovely Runner",
+   "id" : "lovely-runner",
+   "image_url" : "images/series.jpg",
+   "rating"    : "9.8",
+   "description" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
+   "cast"   : ["Kim hey hon", "byu  woo Suke" , "Song gue Hee"],
+   "genre"  : ["Romantic comedy"," " , "Fantasy"]
+},
+{
+    "name" : "Stranger Things",
+    "id" : "stranger-things",
+    "image_url" : "images/series-1.jpg",
+    "rating"    : "8.7",
+    "description" : "A group of young friends witness suppernatural forces and secret government",
+    "cast"   : ["Kim hey hon", "byu  woo Suke" , "Song gue Hee"],
+    "genre"  : ["Drama", " " , "Fantasy" , " " ,"Horror"]
+}
+]
