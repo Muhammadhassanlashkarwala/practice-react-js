@@ -16,5 +16,23 @@
     "description" : "A group of young friends witness suppernatural forces and secret government",
     "cast"   : ["Kim hey hon", "byu  woo Suke" , "Song gue Hee"],
     "genre"  : ["Drama", " " , "Fantasy" , " " ,"Horror"]
+},
+{
+    "name" : "The Crown",
+    "id" : "the-crown",
+    "image_url" : "images/series-4.jpg",
+    "rating"    : "8.2",
+    "description" : "A group of young friends witness suppernatural forces and secret government",
+    "cast"   : ["Kim hey hon" ,"Song gue Hee" , "byu  woo Suke"],
+    "genre"  : ["Drama", " " , "Serious"]
+},
+{
+    "name" : "Money Heist",
+    "id" : "money-heist",
+    "image_url" : "images/series-5.jpg",
+    "rating"    : "7.9",
+    "description" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
+    "cast"   : ["Kim hey hon" ,"Song gue Hee" , "byu  woo Suke"],
+    "genre"  : ["Drama", " " , "Serious"]
 }
 ]
