@@ -1,6 +1,5 @@
-
-
-export const ProfileCard = ( {name, age, greeting, children} ) => {
+export const ProfileCard = (props) => {
+    const {name, age, greeting, children} = props;
     return(
         <>
     <h2>Name: {name}</h2>
@@ -10,3 +9,7 @@ export const ProfileCard = ( {name, age, greeting, children} ) => {
       </>
     );
 };
+
+
+
+

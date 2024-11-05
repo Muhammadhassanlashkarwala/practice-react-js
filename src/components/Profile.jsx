@@ -1,6 +1,5 @@
 import { ProfileCard } from "./ProfileCard";
 
-
 export const Profile = () => {
 return(
     <div>
