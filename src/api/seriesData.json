@@ -4,35 +4,39 @@
    "id" : "lovely-runner",
    "image_url" : "images/series.jpg",
    "rating"    : "9.8",
-   "description" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
+   "summary" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
    "cast"   : ["Kim hey hon", "byu  woo Suke" , "Song gue Hee"],
-   "genre"  : ["Romantic comedy"," " , "Fantasy"]
+   "genre"  : ["Romantic comedy"," " , "Fantasy"],
+   "button" : "Watch Now"
 },
 {
     "name" : "Stranger Things",
     "id" : "stranger-things",
     "image_url" : "images/series-1.jpg",
     "rating"    : "8.7",
-    "description" : "A group of young friends witness suppernatural forces and secret government",
+    "summary" : "A group of young friends witness suppernatural forces and secret government",
     "cast"   : ["Kim hey hon", "byu  woo Suke" , "Song gue Hee"],
-    "genre"  : ["Drama", " " , "Fantasy" , " " ,"Horror"]
+    "genre"  : ["Drama", " " , "Fantasy" , " " ,"Horror"],
+    "button" : "Watch Now"
 },
 {
     "name" : "The Crown",
     "id" : "the-crown",
     "image_url" : "images/series-4.jpg",
     "rating"    : "8.2",
-    "description" : "A group of young friends witness suppernatural forces and secret government",
+    "summary" : "A group of young friends witness suppernatural forces and secret government",
     "cast"   : ["Kim hey hon" ,"Song gue Hee" , "byu  woo Suke"],
-    "genre"  : ["Drama", " " , "Serious"]
+    "genre"  : ["Drama", " " , "Serious"],
+    "button" : "Watch Now"
 },
 {
     "name" : "Money Heist",
     "id" : "money-heist",
     "image_url" : "images/series-5.jpg",
     "rating"    : "7.9",
-    "description" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
+    "summary" : "Im sol travels back in time to prevent the tragic fate of her favorite star, Ryu Sun Jae",
     "cast"   : ["Kim hey hon" ,"Song gue Hee" , "byu  woo Suke"],
-    "genre"  : ["Drama", " " , "Serious"]
+    "genre"  : ["Drama", " " , "Serious"],
+    "button" : "Watch Now"
 }
 ]

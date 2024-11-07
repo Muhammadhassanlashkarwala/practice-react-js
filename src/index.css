@@ -53,3 +53,21 @@ a{
 .grid-three--cols{
     grid-template-columns: repeat(2, 1fr) ;
 }
+.card{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+img{
+    width: 100%;
+}
+.card-content{
+    /* font-size: 2vw; */
+    padding: 1.2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+button{
+    width: 30%;
+    /* height: 50%; */
+}
