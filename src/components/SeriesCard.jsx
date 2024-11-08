@@ -2,6 +2,9 @@
 
 export const SeriesCard = ({ curElem, key }) => {
     // console.log(curElem);
+    // yaha hum variable yuh nh bana skate hen jeese btn-style ok hume yuh banana pare ga btn_style.
+    // aur jab inline CSS pass kare gay tww hume ye khayaal rakhna h jis tarah hum css me likhte thee font-size, background-color, tww JSX me hum yuh nh likh skate hen balke humey camelCase me likhan pare ga, yuh fontSize, backgroundColor, fontWeight etc.
+    
     const btn_style = {padding:"2.5rem 2.4rem",
     margin:"1.5rem 0rem",
     border:"none",
