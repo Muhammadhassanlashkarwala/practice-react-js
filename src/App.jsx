@@ -1,5 +1,6 @@
 import seriesData from '../src/api/seriesData.json'
 import { SeriesCard } from './components/SeriesCard';
+import './components/Netflix.module.css';
 
 const App = () => {
   return(
