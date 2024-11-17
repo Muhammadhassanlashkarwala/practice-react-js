@@ -67,8 +67,8 @@ const colorSetting = curElem.rating >= 8.5 ? styles.super_hit : styles.average;
       Rating: 
      <span className={`${styles.rating} ${colorSetting}`}>{curElem.rating}</span></h3>
      <p className="text-3xl font-bold underline"> Summary: {curElem.summary}</p>
-     <p>Cast: {curElem.cast}</p>
-     <p>Genre: {curElem.genre}</p>
+     <p className="text-3xl font-bold underline">Cast: {curElem.cast}</p>
+     <p className="text-3xl font-bold underline">Genre: {curElem.genre}</p>
     <button
     style={btn_style}
     ><span className={`rating ${colorSetting}`}>
