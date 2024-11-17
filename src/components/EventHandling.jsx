@@ -7,9 +7,9 @@ function EventHandling() {
         alert(`Welcome ${user}`)
     }
     return(
-        <div className="flex flex-col justify-center items-center mt-20 pt-20">
+        <div className="flex flex-col justify-center items-center mt-10">
         {/* Function components with named Functions */}
-        <button className="b-2 m-4 px-2 py-8 text-4xl font-bold mt-20 bg-yellow-300 text-white" onClick={handleButtonClick}>Click Me!</button>
+        <button className="b-2 m-4 px-2 py-8 text-4xl font-bold bg-yellow-300 text-white" onClick={handleButtonClick}>Click Me!</button>
         {/* Function components with fate aero Function */}
         <button className="b-2 m-4 px-2 py-8 text-4xl font-bold bg-yellow-300 text-white" onClick={(event) => handleButtonClick(event)}>Fate aero!</button>
 
