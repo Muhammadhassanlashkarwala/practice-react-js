@@ -1,7 +1,8 @@
 // import seriesData from '../src/api/seriesData.json'
 // import { SeriesCard } from './components/SeriesCard';
+import { EventPropagation } from './components/EventPropagation';
 import './components/Netflix.module.css';
-import EventHandling from './components/EventHandling';
+// import EventHandling from './components/EventHandling';
 import { EventProps } from './EventProps';
 
 const App = () => {
@@ -15,7 +16,8 @@ const App = () => {
    </ul>
     </section>   */}
   {/* <EventHandling /> */}
-  <EventProps />
+  {/* <EventProps /> */}
+  <EventPropagation />
   </>
   );
 };
