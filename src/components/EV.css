@@ -16,16 +16,16 @@
 .p-div{
     background-color: lightseagreen;
     border: 5px solid black;  
-    width: 96%;
+    /* width: 96%; */
     margin: 30px 20px;
-    height: 70%;  
+    /* height: 70%;   */
 }
 .c-div{
     background-color: yellow;
     border: 5px solid black;  
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
-    margin: 50px 260px;
+    margin: 50px 150px;
     font-size: 2rem;
-    height: 50%;  
+    /* height: 50%;   */
 }
