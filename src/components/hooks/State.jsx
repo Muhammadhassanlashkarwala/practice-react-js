@@ -13,7 +13,6 @@ export const State = () => {
     <h1 className="font-bold text-8xl">{count}</h1>
     <button className="bg-green-400 p-12 text-5xl mx-auto" onClick={handleClickButton}>Increment</button>
     </section>
-
    </>
   )
 }
