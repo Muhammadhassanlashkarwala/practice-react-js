@@ -11,9 +11,12 @@ export const DerivedState = () => {
             name: "Nelle" , age: 15
         },
         {
-            name: "John" , age: 25
+            name: "John" , age: 30  
         },
-    ])
+    ]);
+
+    const TotalUser = users.length;
+    const AverageStudent = (users.reduce((accum, data) => accum + data.age, 0)) / TotalUser
     return(
         <div className="flex flex-col justify-center text-center">
   <h1>Users List</h1>
@@ -28,6 +31,8 @@ export const DerivedState = () => {
     })
   }
   </ul>
-        </div>
+  <p>TotalUser: {TotalUser}</p>
+  <p>AverageStudent: {AverageStudent}</p>
+          </div>
     )
 }

@@ -1,9 +1,10 @@
 // import seriesData from '../src/api/seriesData.json'
 // import { SeriesCard } from './components/SeriesCard';
 // import { EventPropagation } from './components/EventPropagation';
-import './components/Netflix.module.css';
-import { DerivedState } from './components/hooks/DerivedState';
-import { State } from './components/hooks/State';
+import { LiftStateUp } from './components/LiftStateup';
+// import './components/Netflix.module.css';
+// import { DerivedState } from './components/hooks/DerivedState';
+// import { State } from './components/hooks/State';
 // import EventHandling from './components/EventHandling';
 // import { EventProps } from './EventProps';
 
@@ -21,7 +22,8 @@ const App = () => {
   {/* <EventProps />                              Date:  22-11-24 */}
   {/* <EventPropagation />                        Date:  24-11-24 */}
   {/* <State />                                   Date:  29-11-24 */}
-  <DerivedState />
+  {/* <DerivedState />                            Date:  01-12-24 */}
+  <LiftStateUp />
    </>
   );
 };
