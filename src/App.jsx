@@ -6,12 +6,13 @@ import { SwitchToggle } from './Projects/SwitchToggle/SwitchToggle';
 // import './components/Netflix.module.css';
 // import { DerivedState } from './components/hooks/DerivedState';
 // import { State } from './components/hooks/State';
+import { useState } from 'react';
 // import EventHandling from './components/EventHandling';
 // import { EventProps } from './EventProps';
 
 const App = () => {
   return(
-    <>
+  <>
     {/* <section className='container'>
    <ul className='grid grid-three--cols'> 
     {seriesData.map((data) => {

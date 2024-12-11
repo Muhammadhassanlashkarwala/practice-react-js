@@ -36,7 +36,7 @@ body{
 
 .ON{
     background-color: #4caf50;
-    transform: translateX(50px);
+    transform: translateX(150px);
 }
 .OFF{
     background-color: #f44336;

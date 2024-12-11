@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -59,4 +59,4 @@ a{
 }
 .grid-three--cols{
     grid-template-columns: repeat(2, 1fr) ;
-}
+} */
