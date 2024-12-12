@@ -1,12 +1,13 @@
 // import seriesData from '../src/api/seriesData.json'
 // import { SeriesCard } from './components/SeriesCard';
 // import { EventPropagation } from './components/EventPropagation';
-import { SwitchToggle } from './Projects/SwitchToggle/SwitchToggle';
+// import { SwitchToggle } from './Projects/SwitchToggle/SwitchToggle';
 // import { LiftStateUp } from './components/LiftStateup';
 // import './components/Netflix.module.css';
 // import { DerivedState } from './components/hooks/DerivedState';
 // import { State } from './components/hooks/State';
-import { useState } from 'react';
+// import { useState } from 'react';
+import { Todo } from './Projects/Todo/Todo';
 // import EventHandling from './components/EventHandling';
 // import { EventProps } from './EventProps';
 
@@ -26,7 +27,8 @@ const App = () => {
   {/* <State />                                   Date:  29-11-24 */}
   {/* <DerivedState />                            Date:  01-12-24 */}
   {/* <LiftStateUp />                             Date:  04-12-24 */}
-  <SwitchToggle />
+  {/* <SwitchToggle />                            Date:  08-12-24 */}
+  <Todo />
    </>
   );
 };

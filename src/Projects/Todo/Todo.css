@@ -1,0 +1,55 @@
+
+body{
+    background-color: black;
+    width: 100%;
+    overflow: hidden;
+}
+.form1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.todo-input{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.todo-btn{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.header,
+.form,
+.datetime,
+.unOrderList
+{
+    margin: 0 1rem;
+    min-height: 10vh;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 3rem;
+    min-height: 25vh;
+    width: 100%;
+}
+section h1{
+    color: #fff;
+    font-size: 4.8rem;
+    text-align: center;
+}
+.unOrderList{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.unOrderList li{
+    border-radius: 25px;
+    padding: 0px 20px;
+    background: white;
+   color: black;
+}
