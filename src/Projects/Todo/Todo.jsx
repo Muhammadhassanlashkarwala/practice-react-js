@@ -1,75 +1,67 @@
 import { useState } from "react";
 import "./Todo.css";
-import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-import { MdDelete } from "react-icons/md";
-
+import { TodoForm } from "./TodoForm";
+import { TodoList } from "./TodoList";
+import { TodoDate } from "./TodoDate";
 
 export const Todo = () => {
-    const [inputValue, setInputValue] = useState("")
-    const [task, setTask] = useState([])
+    const [task, setTask] = useState([]);
+    const handleFormSubmit = (inputValue) => {
+    const {id, checked, content} = inputValue;
+   //  to check if the input field is empty or not.
+     if(content == "") return;
 
-    const handleInputChange = (value) =>{
-    setInputValue(value)
-    };
-    const handleFormSubmit = (e) => {
-      e.preventDefault();
-
-      if(inputValue == "") return;
-
-      if(task.includes(inputValue)){
-          setInputValue("");
-          return;
-      }
-
-      setTask((prevTask) => [...prevTask , inputValue]);
-
-      setInputValue("");
+   //  to check if the data is already existing or not.
+   //   if(task.includes(inputValue)) return; 
+     const ifTodoMatchedElement = task.find((curTask) => curTask.content === content)
+     if(ifTodoMatchedElement) return;
+     setTask((prevTask) => [...prevTask , {id, content, checked}]); 
     };
 
-    // Date and Time
- const now = new Date();
- const formattedDate = now.toLocaleDateString();
- const formattedTime = now.toLocaleTimeString();
+// Calling handleDeleteTodo Function.
+const handleDeleteTodo = (value) => {
+const updatedTask = task.filter((curTask) => curTask.content 
+  !== value)
+  setTask(updatedTask);
+};
+
+// Calling handleCheckedTodo functionality.
+const handleCheckedTodo = () => {
+
+}
+
+// Calling handleClearAllData fuctionality.
+const handleClearAllData = () => {
+  setTask([]);
+};
 
 return(
  <>
  <section className="todo-container">
     <header>
     <h1 className="text-white text-center">Todo List With React.JS</h1>
-    <h2 className="text-white text-center mb-12 text-5xl">{formattedDate} - {formattedTime}</h2>
+    <TodoDate />
     </header>
- </section>
- <section className="form">
-    <form className="form1" onSubmit={handleFormSubmit}>
-        <div>
-            <input type="text" autoComplete="off" className="todo-input py-2 px-4 outline-none" value={inputValue} onChange={(event)=> handleInputChange(event.target.value)} />
-        </div>
-        <div>
-            <button type="submit" className="todo-btn  bg-blue-400 text-white py-2 px-2 hover:bg-yellow-400 transition">Add Task</button>
-        </div>
-    </form>
+    <TodoForm onAddTodo={handleFormSubmit} />
  </section>
  <section>
     <ul className="unOrderList">
         {
-        task.map((curTask, index)=> {
+        task.map((curTask)=> {
            return(
-            <li className="list py-2 px-4" key={index}>
-            <span>
-                {curTask}
-            </span>
-            <button className="check-btn py-2 pl-4">
-            <IoMdCheckmarkCircleOutline color="green" />
-            </button>
-            <button className="delete-btn py-2">
-            <MdDelete color="red" />
-            </button>
-        </li>
+            <TodoList 
+            key={curTask.id} 
+            data={curTask.content}
+            checked={curTask.checked}
+            onHandleDeleteTodo={handleDeleteTodo} 
+            onHandleCheckedTodo={handleCheckedTodo} 
+            />
            )
         })
         }
     </ul>
  </section>
+ <section className="clear-btn" onClick={handleClearAllData}>Clear All</section>
  </>
-)
+);
 };

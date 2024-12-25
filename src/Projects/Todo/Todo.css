@@ -1,7 +1,7 @@
 
 body{
     background-color: black;
-    width: 100%;
+    width: 100%;    
     overflow: hidden;
 }
 .form1{
@@ -16,6 +16,29 @@ body{
 .todo-btn{
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+}
+.checkList{
+    text-decoration: line-through;
+}
+.notcheckList{
+    text-decoration: none;
+}
+.clear-btn{
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    width: 120px;
+    margin-left: 19rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1rem 2.2rem;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
 }
 .header,
 .form,
