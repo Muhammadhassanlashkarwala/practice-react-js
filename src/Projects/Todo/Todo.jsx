@@ -41,13 +41,11 @@ const handleCheckedTodo = (content) => {
 }
 
 // Calling handleClearAllData fuctionality.
-
 const handleClearAllData = () => {
   setTask([]);
 };
 
 // add Todo to localStorage
-
 setLocalStorageTodoData(task);
 
 return(
