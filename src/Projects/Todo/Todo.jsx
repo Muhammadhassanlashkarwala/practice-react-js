@@ -3,16 +3,18 @@ import "./Todo.css";
 import { TodoForm } from "./TodoForm";
 import { TodoList } from "./TodoList";
 import { TodoDate } from "./TodoDate";
+import { getLocalStorageTodoData, setLocalStorageTodoData } from "./TodoLocalStorage";
+
 
 export const Todo = () => {
-    const [task, setTask] = useState([]);
+    const [task, setTask] = useState(()=> getLocalStorageTodoData());
     const handleFormSubmit = (inputValue) => {
     const {id, checked, content} = inputValue;
    //  to check if the input field is empty or not.
      if(content == "") return;
 
    //  to check if the data is already existing or not.
-   //   if(task.includes(inputValue)) return; 
+  //  if(task.includes(inputValue)) return; 
      const ifTodoMatchedElement = task.find((curTask) => curTask.content === content)
      if(ifTodoMatchedElement) return;
      setTask((prevTask) => [...prevTask , {id, content, checked}]); 
@@ -26,14 +28,27 @@ const updatedTask = task.filter((curTask) => curTask.content
 };
 
 // Calling handleCheckedTodo functionality.
-const handleCheckedTodo = () => {
+const handleCheckedTodo = (content) => {
 
+   const updatedTask = task.map((curTask)=> {
+    if (curTask.content === content ) {
+      return{...curTask, checked: !curTask.checked}
+    }else{
+      return curTask;
+    }
+   });
+   setTask(updatedTask);
 }
 
 // Calling handleClearAllData fuctionality.
+
 const handleClearAllData = () => {
   setTask([]);
 };
+
+// add Todo to localStorage
+
+setLocalStorageTodoData(task);
 
 return(
  <>
