@@ -28,17 +28,13 @@ body{
     color: white;
     border: none;
     width: 120px;
-    margin-left: 56rem;
+    margin-left: 19rem;
     cursor: pointer;
     margin-top: 1rem;
     font-size: 1.6rem;
     text-align: center;
     padding: 1rem 2.2rem;
     border-radius: 0.3rem;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
 }
 .header,
 .form,
