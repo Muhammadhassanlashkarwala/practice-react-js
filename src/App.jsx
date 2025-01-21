@@ -7,9 +7,11 @@
 // import { DerivedState } from './components/hooks/DerivedState';
 // import { State } from './components/hooks/State';
 // import { useState } from 'react';
-import { Todo } from './Projects/Todo/Todo';
+// import { Todo } from './Projects/Todo/Todo';
+// import { ShortCircuitExample } from './components/ShortCircuit';
 // import EventHandling from './components/EventHandling';
 // import { EventProps } from './EventProps';
+import { Counter } from "./components/hooks/useState";
 
 const App = () => {
   return(
@@ -28,7 +30,9 @@ const App = () => {
   {/* <DerivedState />                            Date:  01-12-24 */}
   {/* <LiftStateUp />                             Date:  04-12-24 */}
   {/* <SwitchToggle />                            Date:  08-12-24 */}
-  <Todo />
+  {/* <Todo />                                    Date:  29-12-24 */}
+  {/* <ShortCircuitExample />                     Date:  19-01-25 */}
+  < Counter />
    </>
   );
 };

@@ -1,25 +1,60 @@
-.main-div{
-    width: 100%;
-    height: 100vh;
+
+.container1{
+    background: linear-gradient(rgba(0 , 0, 0, 0.1), rgba(0 , 0, 0, 0.2));
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    width: 60%;
+    height: 45vh;
+    text-align: center;
+    margin-top: 20rem;
+    margin-left: 30rem;
 }
 .g-div{
     background-color: rgb(111, 191, 218);
-    border: 5px solid black;
-    width: 70%;
-    height: 30%;
+    border: 3px solid black;
+    color: aliceblue;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+    /* width: 70%;
+    height: 30%; */
 }
 .p-div{
     background-color: lightseagreen;
-    border: 5px solid black;  
-    margin: 30px 20px;
+    font-size: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 5rem;
+    color: aliceblue;
+    border: 3px solid black;  
+    transform: translateY(-2);
+    transition: 0.3s ease-in-out;
+    /* margin: 30px 20px; */
+}
+.p-div:hover , .g-div:hover{
+ background: rgb(67, 157, 106);
+ transform: scale(1.02);
+ transition: 0.3s ease-in-out;
+}
+.c-div:hover{
+    background: rgb(255, 0, 93);
+ transform: scale(1.02);
+ transition: 0.3s ease-in-out;
+}
+.g-div:hover{
+    background: rgb(4, 165, 218);
+ transform: scale(1.02);
+ transition: 0.3s ease-in-out;
 }
 .c-div{
-    background-color: yellow;
-    border: 5px solid black;     
+    background-color:rgb(225, 87, 137);
+    padding: 1rem;
+    color: aliceblue;
+    margin: 1rem;
+    border: 3px solid black;     
     text-align: center;
-    margin: 50px 150px;
+    /* margin: 50px 150px; */
     font-size: 2rem;
 }
