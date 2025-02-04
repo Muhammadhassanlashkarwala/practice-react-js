@@ -13,7 +13,7 @@
 // import { EventProps } from './EventProps';
 // import { Counter } from "./components/hooks/useState";
 // import { Challenge } from "./components/hooks/useState/challenge";
-import { ControlledComponent } from "./components/hooks/useState/controlled";
+import { ControlledComponent } from "./components/hooks/useState/ControlledComponent";
 
 const App = () => {
   return(
