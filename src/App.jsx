@@ -11,7 +11,9 @@
 // import { ShortCircuitExample } from './components/ShortCircuit';
 // import EventHandling from './components/EventHandling';
 // import { EventProps } from './EventProps';
-import { Counter } from "./components/hooks/useState";
+// import { Counter } from "./components/hooks/useState";
+// import { Challenge } from "./components/hooks/useState/challenge";
+import { ControlledComponent } from "./components/hooks/useState/controlled";
 
 const App = () => {
   return(
@@ -32,7 +34,9 @@ const App = () => {
   {/* <SwitchToggle />                            Date:  08-12-24 */}
   {/* <Todo />                                    Date:  29-12-24 */}
   {/* <ShortCircuitExample />                     Date:  19-01-25 */}
-  < Counter />
+  {/* < Counter />                                Date:  23-01-25 */}
+  {/* <Challenge />                               Date: 01-02-25  */}
+  <ControlledComponent />
    </>
   );
 };
