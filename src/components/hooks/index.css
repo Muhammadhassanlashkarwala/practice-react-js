@@ -1,14 +1,12 @@
 .container{
     width: 50%;
     height: 90vh;
-    /* margin-top: 70px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 input{
     outline: none;
-    /* margin: 1rem; */
     background: #efecec;
 }
 .signupbtn{
