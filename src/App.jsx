@@ -13,7 +13,8 @@
 // import { EventProps } from './EventProps';
 // import { Counter } from "./components/hooks/useState";
 // import { Challenge } from "./components/hooks/useState/challenge";
-import { ControlledComponent } from "./components/hooks/useState/ControlledComponent";
+// import { ControlledComponent } from "./components/hooks/useState/ControlledComponent";
+import { RegistrationComponent } from "./components/hooks/Registration";
 
 const App = () => {
   return(
@@ -36,7 +37,8 @@ const App = () => {
   {/* <ShortCircuitExample />                     Date:  19-01-25 */}
   {/* < Counter />                                Date:  23-01-25 */}
   {/* <Challenge />                               Date: 01-02-25  */}
-  <ControlledComponent />
+  {/* <ControlledComponent />                     Date: 05-02-25  */}
+  <RegistrationComponent />
    </>
   );
 };
