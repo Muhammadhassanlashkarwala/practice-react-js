@@ -2,7 +2,6 @@ import { useState } from "react"
 export const State = () => {
 
   const [count, setCount] = useState(0);
-
   const handleClickButton = ()=> {
     setCount(()=> count + 1)
   };
@@ -25,7 +24,7 @@ function ChildComponent({ count }) {
       </h1>
     </div>
   )
-}
+};
 
 
 

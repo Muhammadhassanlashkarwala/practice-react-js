@@ -110,7 +110,6 @@ export const RegistrationComponent = () => {
               Terms and Privacy
             </a>
           </p>
-
           <div className="clearfix">
             <button type="submit" className="signupbtn">
               Sign Up

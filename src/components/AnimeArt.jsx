@@ -2,7 +2,6 @@
 //  Conditional Values In JSX
 
 export const AnimeArt = () => {
-      
   const name = 'DBZ🥰';
   const image =  <img src="anime.jpeg" alt="" width="30%" />
   const description  = 'Lorem ist piece gist.'
